@@ -16,7 +16,6 @@ class Dokter extends Migration
         Schema::create('dokter', function (Blueprint $table) {
             $table->string('id_dokter');
             $table->string('id_user');
-            $table->string('id_spesialis');
             $table->timestamps();
         });
     }
